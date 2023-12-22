@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverse</title>
+    <script src="./libs/mindar/mindar-image-three.prod.js"></script>
+    <script>
+        window.tf = window.MINDAR.IMAGE.tf;
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/@tensorflow-models/handpose@0.0.6/dist/handpose.js"></script>
+    <script src="./libs/handpose/fingerpose.js"></script>
+    <script type="module" src="./main.js"> </script>
+    
+    <style>
+        html,
+        body {
+            /* height: 2000px;
+            width: 1600px; */
+            height: 700px;
+            width: 1200px;
+            /* margin-top: 300px; */
+            /* margin-top: 10px; */
+            margin-left: 30px;
+            
+            margin-bottom: 10px;
+            position: absolute;
+            overflow: hidden;
+            
+        }
+
+        #image1 {
+            width: 550px;
+            height: 550px;
+            left: 100px;
+            display: flex;
+           
+        }
+
+        #Welcome {
+            width: 600px;
+            height: 200px;
+            visibility: hidden;
+            background: black;
+            font-size: 100px;
+            opacity: 0.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            top: 800px;
+            border-radius: 10px;
+        }
+
+        #click-me {
+            width: 400px;
+            height: 100px;
+            visibility: hidden;
+            background: black;
+            font-size: 50px;
+            opacity: 0.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            bottom: 1500px;
+            padding: 5px 5px;
+        }
+
+        #instruc {
+            width: 1500px;
+            height: 300px;
+            visibility: hidden;
+            background: black;
+            font-size: 50px;
+            opacity: 0.7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            top: 1000px;
+            padding: 5px 5px;
+        }
+        #image2, #image4 {
+            width: 550px;
+            height: 550px;
+            right: 1500px;
+            display: flex;
+        }
+        #image3, #image5 {
+            width: 550px;
+            height: 550px;
+            left :100px;
+            display: flex;
+        }
+      
+        #what {
+            width: 1000px;
+            height: 200px;
+            visibility: hidden;
+            font-size: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            top: 800px;
+            border-radius: 10px;
+        }
+        #Ele,#AR, #VR, #TY {
+            width: 1500px;
+            height: 200px;
+            visibility: hidden;
+            font-size: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            top: 800px;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+
+    <div id="Welcome">
+        <h4>Welcome</h4>
+
+    </div>
+    <div id="click-me">
+        <h4>Start </h4>
+
+    </div>
+    <div id="instruc">
+        <ul>
+            <li>Use your hand '🤚' to "play" or "pause" the audio.</li>
+            <li>Point your thumb '👉' to the right to proceed to the next page.</li>
+        </ul>
+    </div>
+
+    <div id="image2">
+        <img src="./assets/Images/what.png" alt="What is Metaverse">
+
+    </div>
+    <div id="image1">
+        <img src="./assets/Images/Begin.png" alt="Begin">
+
+    </div>
+
+    <div id="what">
+        <h4>What is Metaverse</h4>
+
+    </div>
+    <div id="Ele">
+        <h4>Elements of Metaverse</h4>
+
+    </div>
+    <div id="image3">
+        <img src="./assets/Images/Elements.png" alt="Elements">
+
+    </div>
+    <div id="image4">
+        <img src="./assets/Images/AR.png" alt="AR">
+
+    </div>
+    <div id="AR">
+        <h4>Augmented Reality</h4>
+
+    </div>
+    <div id="image5">
+        <img src="./assets/Images/VR.png" alt="VR">
+
+    </div>
+    <div id="VR">
+        <h4>Virtual Reality</h4>
+
+    </div>
+    <div id="TY">
+        <h4>Thank You</h4>
+
+    </div>
+</body>
+
+</html>

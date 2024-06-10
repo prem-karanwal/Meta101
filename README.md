@@ -3,8 +3,7 @@ Embark on a metaverse journey with Meta101, a marker-based WebAR project. Experi
 Tech Stack used:
   1. MindAR: Enables marker-based augmented reality, seamlessly blending virtual elements with the real world.
   2. TensorFlow.js: Empowers interactive hand gestures for intuitive control.
-  3. Fingerpose.js: Enhances hand tracking, allowing users to utilize gestures such as palm gestures for audio control and pointing for     
-  navigation.
+  3. Fingerpose.js: Enhances hand tracking, allowing users to utilize gestures such as palm gestures for audio control and pointing for navigation.
   4. HTML, CSS, JavaScript: Core technologies driving the overall structure, style, and functionality of the WebAR project.
 
 ![34](https://github.com/prem-karanwal/Meta101/assets/113821428/bd1c1cf2-fdda-4c7b-94ee-17ab96a0b3a5)
